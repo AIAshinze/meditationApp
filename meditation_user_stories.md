@@ -1,6 +1,6 @@
+# User Stories
 
-
-### Login/Registration Page
+## Login/Registration Page
 
 **Title:** User Registration
 
@@ -8,8 +8,8 @@
 
 **Acceptance Criteria:**
 
-1.  Users can enter valid details and click “Sign Up” to create an account.
-2.  An error message is shown if any input is invalid or missing.
+1. Users can enter valid details and click “Sign Up” to create an account.
+2. An error message is shown if any input is invalid or missing.
 
 **Story Points:** 3
 
@@ -21,8 +21,8 @@
 
 **Acceptance Criteria:**
 
-1.  Users can log in with correct credentials and are redirected to their dashboard.
-2.  An error message is displayed for incorrect credentials.
+1. Users can log in with correct credentials and are redirected to their dashboard.
+2. An error message is displayed for incorrect credentials.
 
 **Story Points:** 3
 
@@ -34,7 +34,7 @@
 
 **Acceptance Criteria:**
 
-1.  Error messages are displayed for missing fields on sign-up or login attempts.
+1. Error messages are displayed for missing fields on sign-up or login attempts.
 
 **Story Points:** 2
 
@@ -46,13 +46,13 @@
 
 **Acceptance Criteria:**
 
-1.  User details are saved in local storage after registration and used for authentication during login.
+1. User details are saved in local storage after registration and used for authentication during login.
 
 **Story Points:** 2
 
 ---
 
-### Homepage
+## Homepage
 
 **Title:** Personalized Homepage Greeting
 
@@ -60,7 +60,7 @@
 
 **Acceptance Criteria:**
 
-1.  Display “Hello, [username]” followed by the title “Find your perfect meditation.”
+1. Display “Hello, [username]” followed by the title “Find your perfect meditation.”
 
 **Story Points:** 1
 
@@ -72,7 +72,7 @@
 
 **Acceptance Criteria:**
 
-1.  Display cards with images, titles, descriptions, categories such as calmness, relaxation, and durations such as 10 or 15 minutes.
+1. Display cards with images, titles, descriptions, categories such as calmness, relaxation, and durations such as 10 or 15 minutes.
 
 **Story Points:** 3
 
@@ -84,7 +84,7 @@
 
 **Acceptance Criteria:**
 
-1.  Showcase one meditation with an image, title, category, and duration in a dedicated section.
+1. Showcase one meditation with an image, title, category, and duration in a dedicated section.
 
 **Story Points:** 2
 
@@ -96,13 +96,13 @@
 
 **Acceptance Criteria:**
 
-1.  Display a logo in the top-left corner and a settings icon in the top-right corner for navigation.
+1. Display a logo in the top-left corner and a settings icon in the top-right corner for navigation.
 
 **Story Points:** 1
 
 ---
 
-### Detailed Screen
+## Detailed Screen
 
 **Title:** Exercise "About" Section
 
@@ -110,7 +110,7 @@
 
 **Acceptance Criteria:**
 
-1.  Display a brief description of the exercise, explaining its focus and stress-reducing benefits.
+1. Display a brief description of the exercise, explaining its focus and stress-reducing benefits.
 
 **Story Points:** 2
 
@@ -122,7 +122,7 @@
 
 **Acceptance Criteria:**
 
-1.  Provide step-by-step guidance on posture and breathing techniques for the exercise.
+1. Provide step-by-step guidance on posture and breathing techniques for the exercise.
 
 **Story Points:** 2
 
@@ -134,7 +134,7 @@
 
 **Acceptance Criteria:**
 
-1.  Include a prominent “Add to Favorites” button at the bottom of the page.
+1. Include a prominent “Add to Favorites” button at the bottom of the page.
 
 **Story Points:** 1
 
@@ -146,13 +146,13 @@
 
 **Acceptance Criteria:**
 
-1.  Display a back icon and a share icon at the top of the page for easy navigation.
+1. Display a back icon and a share icon at the top of the page for easy navigation.
 
 **Story Points:** 1
 
 ---
 
-### Add to Favorites Functionality
+## Add to Favorites Functionality
 
 **Title:** Add Item to Favorites
 
@@ -160,9 +160,9 @@
 
 **Acceptance Criteria:**
 
-1.  A heart icon with the text “Add to Favorites” is displayed next to each item.
-2.  The outlined heart indicates the item is not in Favorites.
-3.  Tapping the button adds the item to the Favorites list, updates the button text to “Remove from Favorites,” and changes the heart icon to filled.
+1. A heart icon with the text “Add to Favorites” is displayed next to each item.
+2. The outlined heart indicates the item is not in Favorites.
+3. Tapping the button adds the item to the Favorites list, updates the button text to “Remove from Favorites,” and changes the heart icon to filled.
 
 **Story Points:** 3
 
@@ -174,9 +174,9 @@
 
 **Acceptance Criteria:**
 
-1.  The “Remove from Favorites” button with a filled heart is displayed for items already in Favorites.
-2.  Tapping the button removes the item from the Favorites list and reverts the heart icon to outlined.
-3.  Users can add or remove items anytime, and the button text updates accordingly.
+1. The “Remove from Favorites” button with a filled heart is displayed for items already in Favorites.
+2. Tapping the button removes the item from the Favorites list and reverts the heart icon to outlined.
+3. Users can add or remove items anytime, and the button text updates accordingly.
 
 **Story Points:** 2
 
@@ -188,15 +188,15 @@
 
 **Acceptance Criteria:**
 
-1.  The “My Favorites” screen displays a list of saved items with their title, category, and duration.
-2.  Users can tap any item to view details or start the activity.
-3.  The Favorites list remains organized for easy browsing and quick access.
+1. The “My Favorites” screen displays a list of saved items with their title, category, and duration.
+2. Users can tap any item to view details or start the activity.
+3. The Favorites list remains organized for easy browsing and quick access.
 
 **Story Points:** 3
 
 ---
 
-### Daily Reminders
+## Daily Reminders
 
 **Title:** Reminder Calendar View
 
@@ -204,8 +204,8 @@
 
 **Acceptance Criteria:**
 
-1.  Display the current month with all the days visible.
-2.  Provide navigation arrows to move between months.
+1. Display the current month with all the days visible.
+2. Provide navigation arrows to move between months.
 
 **Story Points:** 3
 
@@ -217,8 +217,8 @@
 
 **Acceptance Criteria:**
 
-1.  Display a default text “Selected Date: None” and “Selected Time: 20:44” to indicate no date has been selected but a time is chosen.
-2.  Allow users to select a specific time and date.
+1. Display a default text “Selected Date: None” and “Selected Time: 20:44” to indicate no date has been selected but a time is chosen.
+2. Allow users to select a specific time and date.
 
 **Story Points:** 2
 
@@ -230,7 +230,7 @@
 
 **Acceptance Criteria:**
 
-1.  After selecting a time, users can click the “Add Reminder” button to schedule the reminder.
+1. After selecting a time, users can click the “Add Reminder” button to schedule the reminder.
 
 **Story Points:** 2
 
@@ -242,14 +242,14 @@
 
 **Acceptance Criteria:**
 
-1.  Display a list of all reminders with the selected date and time.
-2.  Provide an option to delete a reminder by clicking the red “Delete” button next to it.
+1. Display a list of all reminders with the selected date and time.
+2. Provide an option to delete a reminder by clicking the red “Delete” button next to it.
 
 **Story Points:** 3
 
 ---
 
-### Sharing the Exercises
+## Sharing the Exercises
 
 **Title:** Share Exercises
 
@@ -257,14 +257,14 @@
 
 **Acceptance Criteria:**
 
-1.  Provide a clear share button/icon on the exercise detail page for easy sharing.
-2.  Allow users to share exercises via multiple platforms (e.g., social media, email, or messaging apps).
+1. Provide a clear share button/icon on the exercise detail page for easy sharing.
+2. Allow users to share exercises via multiple platforms (e.g., social media, email, or messaging apps).
 
 **Story Points:** 3
 
 ---
 
-### Logout Functionality
+## Logout Functionality
 
 **Title:** User Logout
 
@@ -272,15 +272,15 @@
 
 **Acceptance Criteria:**
 
-1.  Display a clear and visible “Logout” button in the app.
-2.  Tapping the button logs the user out and redirects them to the login page.
-3.  User session data is cleared upon logout to ensure secure access.
+1. Display a clear and visible “Logout” button in the app.
+2. Tapping the button logs the user out and redirects them to the login page.
+3. User session data is cleared upon logout to ensure secure access.
 
 **Story Points:** 2
 
 ---
 
-### Change Settings
+## Change Settings
 
 **Title:** Theme Customization
 
@@ -288,8 +288,8 @@
 
 **Acceptance Criteria:**
 
-1.  Provide a “Theme” toggle or switch in the settings section for light and dark mode options.
-2.  Allow the user to switch between light and dark mode seamlessly.
-3.  The theme should change immediately without needing to refresh or restart the app.
+1. Provide a “Theme” toggle or switch in the settings section for light and dark mode options.
+2. Allow the user to switch between light and dark mode seamlessly.
+3. The theme should change immediately without needing to refresh or restart the app.
 
 **Story Points:** 5
